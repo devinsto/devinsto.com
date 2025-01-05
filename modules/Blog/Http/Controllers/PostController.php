@@ -32,7 +32,6 @@ class PostController extends BackendController
                 'title' => $post->title,
                 'status' => $post->status,
             ]);
-
         return inertia('BlogPost/PostIndex', [
             'posts' => $posts,
         ]);

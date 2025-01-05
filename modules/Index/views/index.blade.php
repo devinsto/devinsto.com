@@ -1,8 +1,8 @@
 @extends('site-layout')
 
-@section('meta-title', 'Modular: Ready to build')
+@section('meta-title', 'Devinsto - Apprenez, Créez, Collaborez sans limites.')
 
-@section('meta-description', 'Your amazing site')
+@section('meta-description', 'La plateforme polyvalente qui réunit cours, communauté et outils pour les développeurs, designers et créateurs du web.')
 
 @section('bodyEndScripts')
     @vite('resources-site/js/index-app.js')
@@ -11,18 +11,18 @@
 @section('content')
     <section class="py-10 md:py-12">
 
-        <div class="container max-w-screen-xl mx-auto px-4">
+
 
             <div class="text-center">
-                <div class="flex justify-center mb-16">
-                    <img src="{{ Vite::asset('resources-site/images/home-img.png') }}" alt="Image">
+                <div class="mb-16 flex justify-center">
+                    <img src="{{ Vite::asset('resources-site/images/home-oimg.png') }}" alt="Image">
                 </div>
 
-                <h1 class="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-8">Modular: Ready to build</h1>
-
-                <h2 class="font-normal text-gray-700 text-4xl md:text-7xl leading-none mb-8">Your amazing site</h2>
 
                 <index-example-component></index-example-component>
+                 <!-- Le deuxième composant : IndexBlogComponent -->
+            <index-blog-component ></index-blog-component>
+               
             </div>
 
         </div>
