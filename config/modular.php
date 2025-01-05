@@ -1,7 +1,7 @@
 <?php
 
 return [
-    //rosto admin
+    //super root
     'login-url' => '/adminprofrosto',
     'default-logged-route' => 'dashboard.index',
 ];
