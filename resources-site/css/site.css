@@ -5,17 +5,19 @@
 @layer base {
     :root {
         --color-primary-1: 253 253 254; /* #fdfdfe */
-        --color-primary-2: 248 250 255; /* #f8faff */
-        --color-primary-3: 240 244 255; /* #f0f4ff */
-        --color-primary-4: 230 237 254; /* #e6edfe */
-        --color-primary-5: 217 226 252; /* #d9e2fc */
-        --color-primary-6: 198 212 249; /* #c6d4f9 */
-        --color-primary-7: 174 192 245; /* #aec0f5 */
-        --color-primary-8: 141 164 239; /* #8da4ef */
-        --color-primary-9: 62 99 221; /* #3e63dd */
-        --color-primary-10: 58 92 204; /* #3a5ccc */
-        --color-primary-11: 52 81 178; /* #3451b2 */
-        --color-primary-12: 31 45 92; /* #1f2d5c */
+        --color-primary-2: 238 255 245; /* #eefff5 */
+        --color-primary-3: 238 255 246; /* #eefff6 */
+        
+      
+        --color-primary-4: 215 255 237; /* #d7ffed */
+        --color-primary-5: 178 255 220; /* #b2ffdc */
+        --color-primary-6: 118 255 193; /* #76ffc1 */
+        --color-primary-7: 51 245 159; /* #33f59f */
+        --color-primary-8: 9 222 127; /* #09de7f */
+        --color-primary-9: 0 192 107; /* #00c06b */
+        --color-primary-10: 4 145 84; /* #049154 */
+        --color-primary-11: 10 113 68; /* #0a7144 */
+        --color-primary-12: 10 93 59; /* #0a5d3b */
 
         /* 1 - App background, 2 - Subtle background */
         --color-neutral-1: 252 252 253; /* #fcfcfd */

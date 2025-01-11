@@ -7,11 +7,11 @@
         :body-scrolling="!isMobile"
         @sidebar:toggle="sidebarToggle"
     >
-        <Link :href="route('dashboard.index')" class="mb-6 flex pl-2">
+        <Link :href="route('dashboard.index')" class="mb-6 flex pl-2" prefetch >
             <img
                 src="@resources/images/logo.svg"
                 class="w-40"
-                alt="Modular Logo"
+                alt="Logo Devinsto"
             />
         </Link>
 

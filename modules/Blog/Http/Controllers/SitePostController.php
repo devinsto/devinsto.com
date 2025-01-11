@@ -16,7 +16,7 @@ class SitePostController extends SiteController
         $posts = Post::with('tags', 'author')
             ->where('published_at', '<=', Carbon::now())
             ->latest()
-            ->paginate(6);
+            ->paginate(9);
 
         $archiveOptions = $getArchiveOptions->get();
         $tags = $getTagOptions->get();

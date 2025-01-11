@@ -13,16 +13,16 @@
 
 
 
-            <div class="text-center">
-                <div class="mb-16 flex justify-center">
+            <div class="">
+                {{-- <div class="mb-16 flex justify-center">
                     <img src="{{ Vite::asset('resources-site/images/home-oimg.png') }}" alt="Image">
-                </div>
+                </div> --}}
 
 
-                <index-example-component></index-example-component>
+                <index-component></index-component>
                  <!-- Le deuxième composant : IndexBlogComponent -->
             <index-blog-component ></index-blog-component>
-               
+
             </div>
 
         </div>
