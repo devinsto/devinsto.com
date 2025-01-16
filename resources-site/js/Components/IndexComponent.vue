@@ -1,16 +1,16 @@
 <template>
 
     <div class="hero flex flex-col-reverse items-center justify-center">
-        <div class="hero-content flex justify-center items-center">
+        <div class="hero-content flex items-center justify-center">
             <div
-                class="z-10  w-full  items-center p-6 text-center md:p-12 lg:w-1/2 lg:items-start lg:text-left">
-                <h1 class="mb-4 text-3xl font-bold md:text-6xl text-center">
+                class="z-10 w-full items-center p-6 text-center md:p-12 lg:w-1/2 lg:items-start lg:text-left">
+                <h1 class="mb-4 text-center text-3xl font-bold md:text-6xl">
                     <span class="text-[38px] text-[#00c06b] md:text-[61px]">Devinsto</span> <br>
                     Apprenez, Créez, Collaborez sans limites.
                 </h1>
 
 
-                <p class="mb-6 text-base md:text-lg lg:pr-20 text-center">
+                <p class="mb-6 text-center text-base md:text-lg lg:pr-20">
                     La plateforme ultime pour apprendre, collaborer et construire des projets en développement web,
                     graphisme, et bien plus encore.
                 </p>
@@ -89,10 +89,9 @@
             </div>
         </div>
     </div>
-
-
+        
+    
 </template>
-
 
 <style scoped>
 .svgBox {

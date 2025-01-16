@@ -8,6 +8,12 @@ export default {
             link: route('dashboard.index')
         },
         {
+            label: 'Home',
+            permission: 'Acl',
+            icon: 'ri-home-line',
+            link: '/'
+        },
+        {
             label: 'Blog',
             permission: 'Blog',
             children: [

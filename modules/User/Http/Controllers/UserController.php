@@ -61,7 +61,7 @@ class UserController extends BackendController
         $user->update($params);
 
         return redirect()->route('user.index')
-            ->with('success', 'User updated');
+            ->with('success', 'Utilisateur mise a jour avec succes');
     }
 
     public function destroy($id)

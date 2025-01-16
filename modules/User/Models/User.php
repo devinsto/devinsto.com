@@ -34,6 +34,10 @@ class User extends Authenticatable
         'password',
         'profile_type',
         'profile_id',
+        'image',
+        'bio',
+        'github_handle',
+        'twitter_handle'
     ];
 
     /**

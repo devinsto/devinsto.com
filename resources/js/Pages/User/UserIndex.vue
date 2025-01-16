@@ -24,7 +24,15 @@
                     <AppDataTableData>
                         {{ item.id }}
                     </AppDataTableData>
+                    <AppDataTableData>
+                        <img
+                            v-if="item.image_url"
+                            :src="item.image_url"
+                            class="h-10 w-10 rounded"
+                        />
 
+                        <AppImageNotAvailable v-else />
+                    </AppDataTableData>
                     <AppDataTableData>
                         {{ item.name }}
                     </AppDataTableData>
@@ -141,7 +149,7 @@ const breadCrumb = [
     { label: 'Users', last: true }
 ]
 
-const headers = ['ID', 'Name', 'Email', 'Actions']
+const headers = ['ID', 'Image', 'Name', 'Email', 'Actions']
 
 const confirmDialogRef = ref(null)
 const confirmDelete = (deleteRoute) => {
